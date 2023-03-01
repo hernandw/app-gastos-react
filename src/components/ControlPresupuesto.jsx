@@ -1,6 +1,7 @@
 import React from 'react'
 import { formatea} from '../helpers/formatCoin' 
 
+
 const ControlPresupuesto = ({presupuesto}) => {
     const cantidad = presupuesto
   return (
@@ -19,6 +20,7 @@ const ControlPresupuesto = ({presupuesto}) => {
             <span>Gastado: </span> {formatea(cantidad)}
         </p>
       </div>
+      
     </div>
   )
 }
